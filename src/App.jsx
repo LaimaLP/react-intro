@@ -7,8 +7,8 @@ import { Form } from './components/form/Form';
 import { ListWithForLoop } from './components/list/ListWithForLoop';
 import { ListWithMap } from './components/list/ListWithMap';
 import { SimpleList } from './components/list/SimpleList';
+import { Skaiciuoklis } from './components/namuDarbai/Skaiciuoklis';
 import { Todo } from './components/todo/Todo';
-
 function App() {
   return (
     <div className="App">
@@ -35,6 +35,9 @@ function App() {
       <h2>Tiesiog komponento panaudojimas</h2>
       <Item />
       <Item></Item>
+
+      <Skaiciuoklis />
+   
     </div>
   );
 }

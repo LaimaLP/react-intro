@@ -1,0 +1,21 @@
+.numberContainer {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .gridContainer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5px; 
+    /* justify-content: center;
+    align-items: center;
+     */
+   
+  }
+
+  .gridContainerMath {
+    display: flex;
+    gap: 5px;
+    flex-direction: column;
+    margin: 0 30px
+  }
