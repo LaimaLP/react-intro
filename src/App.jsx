@@ -9,9 +9,12 @@ import { ListWithMap } from './components/list/ListWithMap';
 import { SimpleList } from './components/list/SimpleList';
 import { Skaiciuoklis } from './components/namuDarbai/Skaiciuoklis';
 import { Todo } from './components/todo/Todo';
+import { Udemy } from './components/udemy/Udemy';
 function App() {
   return (
     <div className="App">
+      
+      <Udemy />
       <h2>useState() hooks'as</h2>
       <Todo />
       <Counter />
